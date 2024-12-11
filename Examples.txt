@@ -1,0 +1,23 @@
+'Run' Examples:
+
+-- straight forward --
+
+./solvePuzzle 182043765
+goal board reached !
+moves considered:  737
+visited board size = 258
+solution:  
+1) (1,1)->(1,0)
+2) (0,1)->(1,1)
+3) (0,2)->(0,1)
+4) (1,2)->(0,2)
+5) (2,2)->(1,2)
+6) (2,1)->(2,2)
+7) (1,1)->(2,1)
+8) (1,2)->(1,1)
+9) (2,2)->(1,2)
+
+-- initial configuration is not solvable --
+
+./solvePuzzle 812043765
+initial board is not solvable
